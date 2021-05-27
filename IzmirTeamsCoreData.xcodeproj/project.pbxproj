@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C1B90A22660328C00914B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C1B90A12660328C00914B5B /* Assets.xcassets */; };
 		7CD4FFE7265FEB3600333D06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4FFE6265FEB3600333D06 /* AppDelegate.swift */; };
 		7CD4FFE9265FEB3600333D06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4FFE8265FEB3600333D06 /* SceneDelegate.swift */; };
 		7CD4FFEB265FEB3600333D06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4FFEA265FEB3600333D06 /* ViewController.swift */; };
 		7CD4FFEE265FEB3600333D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4FFEC265FEB3600333D06 /* Main.storyboard */; };
 		7CD4FFF1265FEB3600333D06 /* IzmirTeamsCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4FFEF265FEB3600333D06 /* IzmirTeamsCoreData.xcdatamodeld */; };
-		7CD4FFF3265FEB3800333D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4FFF2265FEB3800333D06 /* Assets.xcassets */; };
 		7CD4FFF6265FEB3800333D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4FFF4265FEB3800333D06 /* LaunchScreen.storyboard */; };
+		7CD4FFFE265FECB800333D06 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4FFFD265FECB800333D06 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C1B90A12660328C00914B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		7CD4FFE3265FEB3600333D06 /* IzmirTeamsCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IzmirTeamsCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD4FFE6265FEB3600333D06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CD4FFE8265FEB3600333D06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7CD4FFEA265FEB3600333D06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7CD4FFED265FEB3600333D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CD4FFF0265FEB3600333D06 /* IzmirTeamsCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IzmirTeamsCoreData.xcdatamodel; sourceTree = "<group>"; };
-		7CD4FFF2265FEB3800333D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CD4FFF5265FEB3800333D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CD4FFF7265FEB3800333D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CD4FFFD265FECB800333D06 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,11 @@
 				7CD4FFE8265FEB3600333D06 /* SceneDelegate.swift */,
 				7CD4FFEA265FEB3600333D06 /* ViewController.swift */,
 				7CD4FFEC265FEB3600333D06 /* Main.storyboard */,
-				7CD4FFF2265FEB3800333D06 /* Assets.xcassets */,
+				7C1B90A12660328C00914B5B /* Assets.xcassets */,
 				7CD4FFF4265FEB3800333D06 /* LaunchScreen.storyboard */,
 				7CD4FFF7265FEB3800333D06 /* Info.plist */,
 				7CD4FFEF265FEB3600333D06 /* IzmirTeamsCoreData.xcdatamodeld */,
+				7CD4FFFD265FECB800333D06 /* DetailViewController.swift */,
 			);
 			path = IzmirTeamsCoreData;
 			sourceTree = "<group>";
@@ -128,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD4FFF6265FEB3800333D06 /* LaunchScreen.storyboard in Resources */,
-				7CD4FFF3265FEB3800333D06 /* Assets.xcassets in Resources */,
+				7C1B90A22660328C00914B5B /* Assets.xcassets in Resources */,
 				7CD4FFEE265FEB3600333D06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +145,7 @@
 			files = (
 				7CD4FFEB265FEB3600333D06 /* ViewController.swift in Sources */,
 				7CD4FFE7265FEB3600333D06 /* AppDelegate.swift in Sources */,
+				7CD4FFFE265FECB800333D06 /* DetailViewController.swift in Sources */,
 				7CD4FFE9265FEB3600333D06 /* SceneDelegate.swift in Sources */,
 				7CD4FFF1265FEB3600333D06 /* IzmirTeamsCoreData.xcdatamodeld in Sources */,
 			);
